@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Installing PG gem on OS X - failure to build native extension"
+date:   2016-1-4 13:46:30 +0700
+categories: jekyll update
+---
+
+Here's how I fixed it (with homebrew):
+
+Install another build of Xcode Tools (typing 'brew update' in the terminal will prompt you to update the Xcode build tools)
+
+{% highlight ruby %}
+brew update
+brew install postgresql
+{% endhighlight %}
+
+After that 'gem install pg' worked for me.
+
+
