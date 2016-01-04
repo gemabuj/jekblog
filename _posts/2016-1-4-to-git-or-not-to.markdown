@@ -5,6 +5,8 @@ date:   2016-1-4 13:46:30 +0700
 categories: jekyll update
 ---
 
+Committing processes from the comfort of your command line are simple and enjoying activity. It is executed via this command:
+
 {% highlight git %}
 git init
 git status
@@ -30,9 +32,9 @@ Sometimes, an unexpected error occured. Shit happens. `"Help, I keep getting a '
 
 7. Now that you've added your public key to Github and/or BitBucket, try to `git push` again and see if it works. It should! In case you don't remember the syntax, here it is:
 
-{% highlight git %}
+```git
 git push -u origin master
-{% endhighlight %}
+```
 
 More help available from [GitHub on creating SSH Keys][ssh] and [BitBucket Help][bitbucket].
 
