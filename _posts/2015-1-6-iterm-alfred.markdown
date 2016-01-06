@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "My Other Post - Not I'm not good at this but what am I missing?"
+title:  "A Failed Integration between AlfredApp and iTerm"
 date:   2015-12-28 11:46:30 +0700
 categories: jekyll update
 ---
