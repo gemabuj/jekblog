@@ -4,6 +4,7 @@ title:  "Sample of XML Syntax"
 date:   2015-1-8 19:15:30 +0700
 categories: jekyll update
 ---
+Here are an example of how writing an XML code snippets for Semantic purposes. Quite simple, actually. This sample is depicted from Jeff Pollock's book.
 
 {% highlight xml %}
 <?xml version=”1.0”?>
