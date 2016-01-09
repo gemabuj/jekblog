@@ -4,6 +4,7 @@ title:  "Printing in Python"
 date:   2016-1-9 21:40:30 +0700
 categories: jekyll update
 ---
+Printing in Python
 
 {% highlight python %}
 cars = 100
@@ -22,6 +23,7 @@ print "There will be", cars_not_driven, "empty cars today."
 print "We can transport", carpool_capacity, "people today."
 print "We have", passengers, "to carpool today."
 print "We need to put about", average_passengers_per_car, "in each car."
+
 # print without spaces between words
 print "Hey there, %s." % "beautiful!"
 {% endhighlight %}

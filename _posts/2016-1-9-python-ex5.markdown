@@ -4,6 +4,7 @@ title:  "Printing in Python. Again."
 date:   2016-1-9 21:45:30 +0700
 categories: jekyll update
 ---
+Printing in Python
 
 {% highlight python %}
 my_name = 'Gema Bujangga'
