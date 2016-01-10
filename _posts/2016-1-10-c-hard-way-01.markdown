@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Learn C The Hard Way"
+date:   2016-1-10 11:40:30 +0700
+categories: jekyll update
+---
+Testing and dusting off your C compiler.
+
+{% highlight c %}
+#include <stdio.h>
+
+/* This is a comment */
+int main(int argc, char const *argv[])
+{
+	int distance = 1270;
+	printf("You're a %d miles away.\n", distance);
+	return 0;
+}
+{% endhighlight %}
