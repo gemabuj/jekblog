@@ -17,3 +17,20 @@ int main(int argc, char const *argv[])
 	return 0;
 }
 {% endhighlight %}
+
+Another sample of syntax highlighting:
+
+{% highlight c %}
+#include <stdio.h>
+/* This is a comment 
+that appears in multiline */
+int main(int argc, char const *argv[])
+{
+	int age = 34;
+	int tall = 166;
+	// This is also a comment
+	printf("You're a %d years old.\n", age);
+	printf("You're a %d centimeters tall.\n", tall);
+	return 0;
+}
+{% endhighlight %}
